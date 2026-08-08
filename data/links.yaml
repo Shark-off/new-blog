@@ -1,0 +1,30 @@
+# =============================================================================
+# 友链数据（友链页 /links/ 读取此文件）
+# 页面壳子在 content/links.md，卡片内容在此维护
+#
+# 分组格式：
+# linkGroups:
+#   - name: 分组名称
+#     desc: 分组说明
+#     links:
+#       - url: 站点地址
+#         avatar: 头像地址
+#         name: 友链名字
+#         blog: 友链名字
+#         desc: 一句话描述
+#         color: '#主题色'
+#         siteshot: 站点截图地址（可选）
+#         rss: RSS 地址（可选）
+
+title: 来加入我们叭
+cover: "/hero/sp1.mp4"
+
+linkGroups:
+  - name: 紧密相连
+    desc: 这里放和我最亲近的朋友们（建议只放八个哦~）
+    links: []
+
+  - name: 推荐网站
+    desc: 这里是最熟悉的小伙伴（位置不限量哦~）
+    type: simple
+    links: []
