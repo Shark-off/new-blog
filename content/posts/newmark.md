@@ -90,12 +90,10 @@ tocEndLevel: 4
 ```语言名
 代码
 ```
-```
 
-
-``` rust
-  fn main()
-  {
-    println!("Hello World");
-  }
+```rust
+fn main()
+{
+  println!("Hello World");
+}
 ```
