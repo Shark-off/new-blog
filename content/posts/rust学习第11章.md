@@ -1,7 +1,7 @@
 
 ---
-title: "rust学习第11章"
-description: "rust学习第11章"
+title: "rust学习第10章"
+description: "rust学习第10章"
 date: 2026-08-14
 lastmod: 2024-08-14
 categories:
