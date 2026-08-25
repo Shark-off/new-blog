@@ -4,6 +4,7 @@ title: "rust学习第10章"
 description: "rust学习第10章"
 date: 2026-08-14
 lastmod: 2024-08-14
+cover: "/hero/background/15.jpg"
 categories:
   - 学习
   - rust

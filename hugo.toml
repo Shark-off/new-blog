@@ -92,7 +92,7 @@ enableRobotsTXT = true     # 生成 robots.txt（模板在 themes/aiovtue/layout
   description = '雨是神的烟花'                  # 站点默认描述（SEO、分享卡片）
   primaryColor = '#4A90D9'                     # 主题主色（原粉 #DF9193 → 蓝）
   favicon = '/hero/hade.png'
-  defaultCover = '/hero/tt3.png'               # 文章默认头图（无 cover 时使用）
+  defaultCover = '/hero/background/16.jpg'               # 文章默认头图（无 cover 时使用）
   math = false                                 # 默认关闭；单篇 front matter 写 math: true 启用构建时 KaTeX 渲染
   postIndent = true                            # 文章/关于页正文首行缩进 2em（单篇可写 indent: false 关闭）
 
@@ -277,7 +277,7 @@ enableRobotsTXT = true     # 生成 robots.txt（模板在 themes/aiovtue/layout
 
   # --- 文章页底部赞助按钮 ---
   [params.sponsor]
-    enable = true
+    enable = false
     title = '我很可爱，请给我钱！'
     description = '我很可爱哦，可以给我点钱钱嘛~'
     [[params.sponsor.methods]]
@@ -316,7 +316,7 @@ enableRobotsTXT = true     # 生成 robots.txt（模板在 themes/aiovtue/layout
   # --- Waline 评论（https://waline.js.org/）---
   # 仅当 params.comment.provider = waline 时生效；当前使用 twikoo，此处留作切换备用
   [params.waline]
-    serverURL = 'https://api.zcservice.houlang.cloud/comment/dccae6b0582418c8ec197b2a9bedfb0c'                                # 切换到 waline 时填写服务端地址（末尾不要加 /）
+    serverURL = 'https://instance.waline.infvar.com/blog'                                # 切换到 waline 时填写服务端地址（末尾不要加 /）
     placeholder = '分享你的想法...'
 
   # --- Twikoo 评论（仅当 params.comment.provider = twikoo 时生效）---
